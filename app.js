@@ -30,4 +30,4 @@ btnContainer.addEventListener('click', function(e) {
     setupUI() 
 })
 
-window.addEventListener('load', init)
+window.addEventListener('load', init) 
