@@ -12,7 +12,7 @@ let pages = []
 
 const setupUI = () => {
     displayFollowers(pages[index])
-    displayButtons()
+    displayButtons(btnContainer,pages, index)
 }
 
 const init = async () => {
