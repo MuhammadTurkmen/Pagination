@@ -24,7 +24,7 @@ const init = async () => {
 
 btnContainer.addEventListener('click', function(e) {
     if(e.target.classList.contains('page-btn')) {
-        e.target.dataset.index
+       index = parseInt(e.target.dataset.index)
     }
 })
 
