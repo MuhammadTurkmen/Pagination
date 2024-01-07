@@ -5,7 +5,7 @@ const display = (followers) => {
     const newFollowers = followers.map((person) => {
         const {avatar_url, login, html_url} = person
         return `<article class="card">
-                    <img src="${avatar_url}"/>
+                    <img src="${avatar_url}" alt="${login}"/>
                 </article>`
     })
 }
