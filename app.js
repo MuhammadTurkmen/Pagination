@@ -12,7 +12,6 @@ let pages = []
 
 const init = async () => {
     const followers = await fetchFollowers()
-    displayFollowers(paginate(followers)[0])
     title.textContent = 'pagination'
     pages = paginate(followers)
 }
