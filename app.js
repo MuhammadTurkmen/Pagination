@@ -23,7 +23,7 @@ const init = async () => {
 }
 
 btnContainer.addEventListener('click', function(e) {
-    
+    if(e.target.classList.contains())
 })
 
 window.addEventListener('load', init)
