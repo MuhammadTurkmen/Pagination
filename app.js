@@ -21,7 +21,7 @@ const init = async () => {
     pages = paginate(followers) 
     setupUI()
 }
-
+ 
 btnContainer.addEventListener('click', function(e) {
     if(e.target.classList.contains('btn-container')) 
     if(e.target.classList.contains('page-btn')) {
