@@ -10,6 +10,8 @@ const display = (followers) => {
                     <a href="${html_url}" class="btn">view profile</a>
                 </article>`
     }).join('')
+
+    container.innerHTML = newFollowers
 }
 
 export default display
