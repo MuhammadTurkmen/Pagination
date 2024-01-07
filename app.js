@@ -10,6 +10,10 @@ const btnContainer = document.querySelector('.btn-container')
 let index = 0
 let pages = []
 
+const setupUI = () => {
+    
+}
+
 const init = async () => {
     const followers = await fetchFollowers()
     title.textContent = 'pagination'
