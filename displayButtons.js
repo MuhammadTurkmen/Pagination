@@ -3,7 +3,7 @@ const displayButtons = (container, pages, activeIndex) => {
         return `<button class="page-btn 
         ${activeIndex === pageIndex ? 'active-btn': 'null'}" data-index="${pageIndex}">${pageIndex + 1}</button>`
     })
-    btns.push('<button class="next">')
+    btns.push('<button class="next-btn">')
     container.innerHTML = btns.join('')
 }
 
