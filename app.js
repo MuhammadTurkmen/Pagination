@@ -11,7 +11,7 @@ let index = 0
 let pages = []
 
 const setupUI = () => {
-    
+    displayFollowers(pages[index])
 }
 
 const init = async () => {
