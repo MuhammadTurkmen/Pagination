@@ -23,7 +23,9 @@ const init = async () => {
 }
 
 btnContainer.addEventListener('click', function(e) {
-    if(e.target.classList.contains('page-btn'))
+    if(e.target.classList.contains('page-btn')) {
+        e.target.dataset.index
+    }
 })
 
 window.addEventListener('load', init)
