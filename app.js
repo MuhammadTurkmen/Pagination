@@ -26,6 +26,7 @@ btnContainer.addEventListener('click', function(e) {
     if(e.target.classList.contains('page-btn')) {
        index = parseInt(e.target.dataset.index)
     }
+    setupUI()
 })
 
 window.addEventListener('load', init)
