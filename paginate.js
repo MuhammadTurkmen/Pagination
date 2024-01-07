@@ -5,6 +5,7 @@ const paginate = (followers) => {
         const start = index * itemPerPage
         return followers.slice(start, start + itemPerPage)
     })
+    return newFollowers
 }
 
 export default paginate
