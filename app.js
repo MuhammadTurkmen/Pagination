@@ -18,6 +18,7 @@ const init = async () => {
     const followers = await fetchFollowers()
     title.textContent = 'pagination'
     pages = paginate(followers)
+    setupUI()
 }
 
 window.addEventListener('load', init)
