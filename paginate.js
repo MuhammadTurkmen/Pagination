@@ -1,3 +1,5 @@
-const paginate = () => {}
+const paginate = (followers) => {
+    
+}
 
 export default paginate
