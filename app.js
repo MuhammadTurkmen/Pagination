@@ -18,7 +18,7 @@ const setupUI = () => {
 const init = async () => {
     const followers = await fetchFollowers()
     title.textContent = 'pagination'
-    pages = paginate(followers)
+    pages = paginate(followers) 
     setupUI()
 }
 
