@@ -9,7 +9,7 @@ const display = (followers) => {
                     <h4>${login}</h4>
                     <a href="${html_url}" class="btn">view profile</a>
                 </article>`
-    })
+    }).join('')
 }
 
 export default display
