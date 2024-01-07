@@ -22,6 +22,8 @@ const init = async () => {
     setupUI()
 }
 
-btnContainer.addEventListener('click')
+btnContainer.addEventListener('click', function(e) {
+    
+})
 
 window.addEventListener('load', init)
