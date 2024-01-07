@@ -1,3 +1,5 @@
-const displayButtons = () => {}
+const displayButtons = (container, pages, activeIndex) => {
+
+}
 
 export default displayButtons
