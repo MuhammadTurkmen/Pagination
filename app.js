@@ -26,7 +26,7 @@ btnContainer.addEventListener('click', function(e) {
     if(e.target.classList.contains('btn-container')) return
     if(e.target.classList.contains('page-btn')) {
        index = parseInt(e.target.dataset.index)
-    }
+    } 
     setupUI() 
 })
 
