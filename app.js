@@ -33,6 +33,12 @@ btnContainer.addEventListener('click', function(e) {
             index = 0
         }
     }
+    if(e.target.classList.contains('prev-btn')) {
+        index--
+        if(index > pages.length - 1 ) {
+            index = 0
+        }
+    }
     setupUI() 
 })
 
