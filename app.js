@@ -35,7 +35,7 @@ btnContainer.addEventListener('click', function(e) {
     }
     if(e.target.classList.contains('prev-btn')) {
         index--
-        if(index > pages.length - 1 ) {
+        if(index < 0 ) {
             index = 0
         }
     }
