@@ -8,6 +8,7 @@ const title = document.querySelector('.section-title h1')
 
 const init = async () => {
     const followers = await fetchFollowers()
+    title.textContent = 'pagination'
 }
 
 window.addEventListener('load', init)
