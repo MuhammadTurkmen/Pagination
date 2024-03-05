@@ -3,4 +3,9 @@ import displayFollowers from './displayFollowers.js'
 import paginate from './paginate.js'
 import displayButtons from './displayButtons.js'
 
+
+const init = async () => {
+    const followers = await fetchFollowers()
+}
+
 window.addEventListener('load', init)
