@@ -4,6 +4,8 @@ import paginate from './paginate.js'
 import displayButtons from './displayButtons.js'
 
 
+const title = document.querySelector('.section-title')
+
 const init = async () => {
     const followers = await fetchFollowers()
 }
